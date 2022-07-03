@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art & Painting Responsive Web</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <a href="#" class="logo">ArTing<span>.</span></a>
+        <div class="menuToogle" onclick="toogleMenu();"></div>
+        <ul class="nav">
+            <li><a href="#banner" onclick="toogleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toogleMenu();">About</a></li>
+            <li><a href="#art" onclick="toogleMenu();">Art</a></li>
+            <li><a href="#artist" onclick="toogleMenu();">Artist</a></li>
+            <li><a href="#contact" onclick="toogleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Every Canvas is A Journey</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quo,
+                dolores unde quidem quod fugiat ipsam obcaecati adipisci odio ea.</p>
+            <a href="#" class="btn">Our Art</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum error
+                    natus voluptatibus sapiente. Dolor, similique sapiente omnis qui mollitia
+                    facere maxime voluptates vitae eos illum fuga quas expedita? Delectus, vero?<br><br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, eveniet.
+                    Ipsam architecto consequatur quos? Tenetur esse aspernatur facere ipsa repudiandae
+                    nihil nesciunt illo cum ducimus? Odit eligendi minima illo facilis.</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="assets/images/imgart.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Art Content -->
+    <section class="art" id="art">
+        <div class="title">
+            <h2 class="titleText">Our <span>A</span>rt</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/art.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Cottage</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/art2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Rainy</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/art3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Street</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/art4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Rainy 2</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/art5.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Bicycle</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/art6.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Boat</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="#" class="btn">View All</a>
+        </div>
+    </section>
+
+    <!-- Artict Content -->
+    <section class="artist" id="artist">
+        <div class="title">
+            <h2 class="titleText">Our <span>A</span>rtist</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/artist1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Famous Artist</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/artist2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Famous Artist</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/artist3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Famous Artist</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="assets/images/artist4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Famous Artist</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Your Message"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <p>&#169; 2022 ArTing</p>
+    </footer>
+
+    <!-- <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toogleMenu(){
+            const menuToogle = document.querySelector('.menuToogle');
+            const nav = document.querySelector('.nav');
+            menuToogle.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script> -->
+    <script src="assets/js.js"></script>
+</body>
+</html>
